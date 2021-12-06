@@ -27,7 +27,7 @@ public class WebFragment extends Fragment {
     private void initView(View view) {
         mWeb = (WebView) view.findViewById(R.id.web);
         setDefaultWebSettings(mWeb);
-        mWeb.loadUrl("https://github.com/zeroplucky/DampingLayout");
+        mWeb.loadUrl("https://www.baidu.com/");
 
     }
 
